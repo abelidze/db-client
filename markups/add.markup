@@ -1,0 +1,17 @@
+{
+	"title": "Managing Employees / Patients",
+	"nodes": [
+		{
+			"id": 1,
+			"type": "button",
+			"data": {
+				"caption": "Add employee",
+				"x": 0,
+				"y": 0,
+				"c": 1,
+				"r": 1,
+				"onclick": "sql"
+			}
+		}
+	]
+}

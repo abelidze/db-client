@@ -1,0 +1,11 @@
+{
+	"nodes": [
+		{
+			"id": "inner_workspace",
+			"type": "tabs",
+			"data": {
+				"markups": ["data.markup", "struct.markup", "sql.markup"]
+			}
+		}
+	]
+}

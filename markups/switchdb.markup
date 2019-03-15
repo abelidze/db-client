@@ -1,0 +1,25 @@
+{
+	"title": "Switching to another database",
+	"nodes": [
+		{
+			"id": "dbname",
+			"type": "input",
+			"data": {
+				"caption": "Database",
+				"x": 0,
+				"y": 0
+			}
+		},
+		{
+			"id": "submit_connect",
+			"type": "button",
+			"data": {
+				"caption": "Connect",
+				"x": 0,
+				"y": 1,
+				"c": 2,
+				"onclick": "sql"
+			}
+		}
+	]
+}

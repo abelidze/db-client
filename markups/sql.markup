@@ -1,0 +1,24 @@
+{
+	"title": "SQL Query",
+	"nodes": [
+		{
+			"id": "sqlquery",
+			"type": "textarea",
+			"data": {
+				"caption": "Enter SQL query:",
+				"x": 0,
+				"y": 0
+			}
+		},
+		{
+			"id": "execute",
+			"type": "button",
+			"data": {
+				"caption": "Execute",
+				"x": 0,
+				"y": 2,
+				"onclick": "sql"
+			}
+		}
+	]
+}

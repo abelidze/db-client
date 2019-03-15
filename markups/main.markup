@@ -1,0 +1,25 @@
+{
+	"title": "Database Management",
+	"nodes": [
+		{
+			"id": "inspector",
+			"type": "inspector",
+			"data": {
+				"caption": "Tables",
+				"x": 0,
+				"y": 0,
+				"w": 320
+			}
+		},
+		{
+			"id": "workspace",
+			"type": "layout",
+			"data": {
+				"caption": "Workspace",
+				"x": 1,
+				"y": 0,
+				"markup": "workspace.markup"
+			}
+		}
+	]
+}

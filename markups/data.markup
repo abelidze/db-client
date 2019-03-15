@@ -1,0 +1,13 @@
+{
+	"title": "Data",
+	"nodes": [
+		{
+			"id": "data",
+			"type": "table",
+			"data": {
+				"x": 0,
+				"y": 0
+			}
+		}
+	]
+}

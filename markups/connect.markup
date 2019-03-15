@@ -1,0 +1,68 @@
+{
+	"title": "Connection settings",
+	"nodes": [
+		{
+			"id": "host",
+			"type": "input",
+			"data": {
+				"caption": "Hostname",
+				"x": 0,
+				"y": 0,
+			}
+		},
+		{
+			"id": "port",
+			"type": "input",
+			"data": {
+				"caption": "Port",
+				"x": 0,
+				"y": 1,
+			}
+		},
+		{
+			"id": "dbname",
+			"type": "input",
+			"data": {
+				"caption": "Database",
+				"x": 0,
+				"y": 2
+			}
+		},
+		{
+			"id": "login",
+			"type": "input",
+			"data": {
+				"caption": "Username",
+				"x": 0,
+				"y": 3
+			}
+		},
+		{
+			"id": "pass",
+			"type": "input",
+			"data": {
+				"caption": "Password",
+				"x": 0,
+				"y": 4
+			}
+		},
+		{
+			"id": "submit_connect",
+			"type": "button",
+			"data": {
+				"caption": "Connect",
+				"x": 0,
+				"y": 5,
+				"c": 2,
+				"onclick": "connect",
+				"source": {
+					"host": "#host",
+					"port": "#port",
+					"dbname": "#dbname",
+					"login": "#login",
+					"pass": "#pass"
+				}
+			}
+		}
+	]
+}

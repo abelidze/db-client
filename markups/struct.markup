@@ -1,0 +1,13 @@
+{
+	"title": "Struct",
+	"nodes": [
+		{
+			"id": "struct",
+			"type": "table",
+			"data": {
+				"x": 0,
+				"y": 0
+			}
+		}
+	]
+}
